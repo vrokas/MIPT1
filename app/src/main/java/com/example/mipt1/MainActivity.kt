@@ -22,5 +22,9 @@ class MainActivity : AppCompatActivity() {
         binding.colorButton.setOnClickListener {
             binding.myText.setTextColor(Color.RED)
         }
+
+        binding.backgroundButton.setOnClickListener {
+            binding.myText.setBackgroundColor(Color.YELLOW)
+        }
     }
 }
