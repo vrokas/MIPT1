@@ -26,5 +26,7 @@ class MainActivity : AppCompatActivity() {
         binding.backgroundButton.setOnClickListener {
             binding.myText.setBackgroundColor(Color.YELLOW)
         }
+        // Comment for revert
+
     }
 }
